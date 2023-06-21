@@ -1,0 +1,21 @@
+.text-align-reg {
+    text-align: center;
+}
+
+.form-inp {
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.batton {
+    font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

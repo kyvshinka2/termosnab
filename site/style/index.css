@@ -1,0 +1,44 @@
+.map-p {
+    font-family: Arial Black, Helvetica, sans-serif;
+    color: #155795;
+    font-size: 18px;
+}
+
+.content-novosty {
+    padding-left: 25px;
+}
+
+.form-inp, .form-inp-2 {
+    width: 35vw;
+    height: 5vh;
+    margin-top: 15px;
+    padding-left: 10px;
+    border: 1px solid #EA5A1E;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.batton {
+    width: 15vw;
+    height: 6vh;
+    margin-top: 15px;
+    background-color: #EA5A1E;
+    border: 1px solid #EA5A1E;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-family: Arial Black, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.batton:hover {
+    background-color: #E93521;
+    border: 1px solid #E93521;
+    transition: 0.5s;
+}
+
+.otzav {
+    padding-left: 25px;
+    margin-top: 25px;
+}

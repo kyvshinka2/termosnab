@@ -1,0 +1,32 @@
+ul {
+    list-style-type: disc;
+}
+
+.a-num-offis {
+    padding-left: 25px;
+}
+
+p, h2, ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content ul li {
+    padding-top: 10px;
+}
+
+.content-number {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.content-number a {
+    text-decoration: none;
+    color: #E93521;
+    transition: 0.4s;
+    font-family: Arial Black, Helvetica, sans-serif;
+}
+
+.content-number a:hover {
+    color: #155795;
+    transition: 0.4s;
+}
