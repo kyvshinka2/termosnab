@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Июн 21 2023 г., 13:45
+-- Время создания: Июн 21 2023 г., 16:23
 -- Версия сервера: 5.7.39
 -- Версия PHP: 7.2.34
 
@@ -52,7 +52,7 @@ CREATE TABLE `Category` (
 CREATE TABLE `Client` (
   `ID` int(11) NOT NULL,
   `Log_In` varchar(20) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Password` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL
+  `Password` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
@@ -60,7 +60,8 @@ CREATE TABLE `Client` (
 --
 
 INSERT INTO `Client` (`ID`, `Log_In`, `Password`) VALUES
-(1, 'chern123', 'chern123');
+(1, 'chern123', 'chern123'),
+(2, 'baz123', '$2y$10$G8pRZEqlbR6UhSIehArXl.iUqqfW1sUcKX78wVe9H9wvHj8Wlh80.');
 
 -- --------------------------------------------------------
 
@@ -198,7 +199,7 @@ ALTER TABLE `Category`
 -- AUTO_INCREMENT для таблицы `Client`
 --
 ALTER TABLE `Client`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT для таблицы `Feedback`
